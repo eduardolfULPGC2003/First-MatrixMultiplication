@@ -1,0 +1,595 @@
+{
+    "machine_info": {
+        "node": "Portatil-Eduardo",
+        "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+        "machine": "AMD64",
+        "python_compiler": "MSC v.1916 64 bit (AMD64)",
+        "python_implementation": "CPython",
+        "python_implementation_version": "3.10.9",
+        "python_version": "3.10.9",
+        "python_build": [
+            "main",
+            "Mar  8 2023 10:42:25"
+        ],
+        "release": "10",
+        "system": "Windows",
+        "cpu": {
+            "python_version": "3.10.9.final.0 (64 bit)",
+            "cpuinfo_version": [
+                9,
+                0,
+                0
+            ],
+            "cpuinfo_version_string": "9.0.0",
+            "arch": "X86_64",
+            "bits": 64,
+            "count": 16,
+            "arch_string_raw": "AMD64",
+            "vendor_id_raw": "AuthenticAMD",
+            "brand_raw": "AMD Ryzen 7 5700U with Radeon Graphics",
+            "hz_actual_friendly": "1.8010 GHz",
+            "hz_actual": [
+                1801000000,
+                0
+            ],
+            "l2_cache_size": 4194304,
+            "stepping": 1,
+            "model": 104,
+            "family": 23,
+            "l3_cache_size": 8388608,
+            "hz_advertised_friendly": "1.7970 GHz",
+            "hz_advertised": [
+                1797000000,
+                0
+            ],
+            "flags": [
+                "3dnow",
+                "3dnowprefetch",
+                "abm",
+                "adx",
+                "aes",
+                "apic",
+                "avx",
+                "avx2",
+                "bmi1",
+                "bmi2",
+                "clflush",
+                "clflushopt",
+                "clwb",
+                "cmov",
+                "cmp_legacy",
+                "cr8_legacy",
+                "cx16",
+                "cx8",
+                "de",
+                "dts",
+                "f16c",
+                "fma",
+                "fpu",
+                "fxsr",
+                "ht",
+                "hypervisor",
+                "ia64",
+                "lahf_lm",
+                "mca",
+                "mce",
+                "misalignsse",
+                "mmx",
+                "movbe",
+                "msr",
+                "mtrr",
+                "osvw",
+                "osxsave",
+                "pae",
+                "pat",
+                "pclmulqdq",
+                "pge",
+                "pni",
+                "popcnt",
+                "pqe",
+                "pqm",
+                "pse",
+                "pse36",
+                "rdpid",
+                "rdrnd",
+                "rdseed",
+                "sep",
+                "sepamd",
+                "serial",
+                "sha",
+                "smap",
+                "smep",
+                "ss",
+                "sse",
+                "sse2",
+                "sse4_1",
+                "sse4_2",
+                "sse4a",
+                "ssse3",
+                "tm",
+                "topoext",
+                "tsc",
+                "umip",
+                "vme",
+                "wdt",
+                "xsave"
+            ],
+            "l2_cache_line_size": 512,
+            "l2_cache_associativity": 6
+        }
+    },
+    "commit_info": {
+        "id": "unversioned",
+        "time": null,
+        "author_time": null,
+        "dirty": false,
+        "project": "Python",
+        "branch": "(unknown)"
+    },
+    "benchmarks": [
+        {
+            "group": null,
+            "name": "test_my_function[1]",
+            "fullname": "test_benchmark.py::test_my_function[1]",
+            "params": {
+                "sizes": 1
+            },
+            "param": "1",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.980000019510044e-06,
+                "max": 5.299999975250102e-06,
+                "mean": 4.433333318350681e-06,
+                "stddev": 7.50821762771666e-07,
+                "rounds": 3,
+                "median": 4.019999960291898e-06,
+                "iqr": 9.899999668050438e-07,
+                "q1": 3.990000004705507e-06,
+                "q3": 4.9799999715105506e-06,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 3.980000019510044e-06,
+                "hd15iqr": 5.299999975250102e-06,
+                "ops": 225563.91053673957,
+                "total": 1.3299999955052046e-05,
+                "data": [
+                    5.299999975250102e-06,
+                    4.019999960291898e-06,
+                    3.980000019510044e-06
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[2]",
+            "fullname": "test_benchmark.py::test_my_function[2]",
+            "params": {
+                "sizes": 2
+            },
+            "param": "2",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 8.359999992535449e-06,
+                "max": 9.279999994760147e-06,
+                "mean": 8.680000003854123e-06,
+                "stddev": 5.199999927404309e-07,
+                "rounds": 3,
+                "median": 8.400000024266773e-06,
+                "iqr": 6.900000016685246e-07,
+                "q1": 8.37000000046828e-06,
+                "q3": 9.060000002136805e-06,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 8.359999992535449e-06,
+                "hd15iqr": 9.279999994760147e-06,
+                "ops": 115207.37322073463,
+                "total": 2.604000001156237e-05,
+                "data": [
+                    9.279999994760147e-06,
+                    8.400000024266773e-06,
+                    8.359999992535449e-06
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[4]",
+            "fullname": "test_benchmark.py::test_my_function[4]",
+            "params": {
+                "sizes": 4
+            },
+            "param": "4",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 2.7039999986300244e-05,
+                "max": 3.304000001662644e-05,
+                "mean": 2.9039999996408977e-05,
+                "stddev": 3.4641016326465915e-06,
+                "rounds": 3,
+                "median": 2.7039999986300244e-05,
+                "iqr": 4.500000022744645e-06,
+                "q1": 2.7039999986300244e-05,
+                "q3": 3.154000000904489e-05,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 2.7039999986300244e-05,
+                "hd15iqr": 3.304000001662644e-05,
+                "ops": 34435.26171224717,
+                "total": 8.711999998922693e-05,
+                "data": [
+                    3.304000001662644e-05,
+                    2.7039999986300244e-05,
+                    2.7039999986300244e-05
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[8]",
+            "fullname": "test_benchmark.py::test_my_function[8]",
+            "params": {
+                "sizes": 8
+            },
+            "param": "8",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.00015358000000560424,
+                "max": 0.00015496000005441602,
+                "mean": 0.0001540933333672001,
+                "stddev": 7.548068381549156e-07,
+                "rounds": 3,
+                "median": 0.00015374000004158005,
+                "iqr": 1.0350000366088515e-06,
+                "q1": 0.0001536200000145982,
+                "q3": 0.00015465500005120705,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.00015358000000560424,
+                "hd15iqr": 0.00015496000005441602,
+                "ops": 6489.5734172809925,
+                "total": 0.00046228000010160034,
+                "data": [
+                    0.00015496000005441602,
+                    0.00015374000004158005,
+                    0.00015358000000560424
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[16]",
+            "fullname": "test_benchmark.py::test_my_function[16]",
+            "params": {
+                "sizes": 16
+            },
+            "param": "16",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.001011960000050749,
+                "max": 0.0010179400000197348,
+                "mean": 0.0010150533333823358,
+                "stddev": 2.995351940779636e-06,
+                "rounds": 3,
+                "median": 0.0010152600000765232,
+                "iqr": 4.484999976739346e-06,
+                "q1": 0.0010127850000571925,
+                "q3": 0.0010172700000339319,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.001011960000050749,
+                "hd15iqr": 0.0010179400000197348,
+                "ops": 985.1699089227408,
+                "total": 0.003045160000147007,
+                "data": [
+                    0.0010152600000765232,
+                    0.0010179400000197348,
+                    0.001011960000050749
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[32]",
+            "fullname": "test_benchmark.py::test_my_function[32]",
+            "params": {
+                "sizes": 32
+            },
+            "param": "32",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.007356739999977435,
+                "max": 0.007442179999998189,
+                "mean": 0.0073986000000028675,
+                "stddev": 4.2745961222189116e-05,
+                "rounds": 3,
+                "median": 0.0073968800000329795,
+                "iqr": 6.408000001556502e-05,
+                "q1": 0.007366774999991321,
+                "q3": 0.007430855000006886,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.007356739999977435,
+                "hd15iqr": 0.007442179999998189,
+                "ops": 135.16070607947617,
+                "total": 0.022195800000008602,
+                "data": [
+                    0.007442179999998189,
+                    0.007356739999977435,
+                    0.0073968800000329795
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[64]",
+            "fullname": "test_benchmark.py::test_my_function[64]",
+            "params": {
+                "sizes": 64
+            },
+            "param": "64",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.05593376000006174,
+                "max": 0.05661042000001544,
+                "mean": 0.056296773333360764,
+                "stddev": 0.0003410205121631477,
+                "rounds": 3,
+                "median": 0.05634614000000511,
+                "iqr": 0.0005074949999652745,
+                "q1": 0.05603685500004758,
+                "q3": 0.05654435000001286,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.05593376000006174,
+                "hd15iqr": 0.05661042000001544,
+                "ops": 17.763007376613047,
+                "total": 0.1688903200000823,
+                "data": [
+                    0.05661042000001544,
+                    0.05634614000000511,
+                    0.05593376000006174
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[128]",
+            "fullname": "test_benchmark.py::test_my_function[128]",
+            "params": {
+                "sizes": 128
+            },
+            "param": "128",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 0.43512006000000836,
+                "max": 0.44235583999998196,
+                "mean": 0.43840172666665844,
+                "stddev": 0.003664459911316353,
+                "rounds": 3,
+                "median": 0.437729279999985,
+                "iqr": 0.005426834999980201,
+                "q1": 0.4357723650000025,
+                "q3": 0.4411991999999827,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 0.43512006000000836,
+                "hd15iqr": 0.44235583999998196,
+                "ops": 2.2810129138938278,
+                "total": 1.3152051799999753,
+                "data": [
+                    0.43512006000000836,
+                    0.44235583999998196,
+                    0.437729279999985
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[256]",
+            "fullname": "test_benchmark.py::test_my_function[256]",
+            "params": {
+                "sizes": 256
+            },
+            "param": "256",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 3.4356421000000408,
+                "max": 3.448502379999991,
+                "mean": 3.442573686666674,
+                "stddev": 0.006488531937024524,
+                "rounds": 3,
+                "median": 3.44357657999999,
+                "iqr": 0.0096452099999631,
+                "q1": 3.4376257200000278,
+                "q3": 3.447270929999991,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 3.4356421000000408,
+                "hd15iqr": 3.448502379999991,
+                "ops": 0.29048034726840244,
+                "total": 10.327721060000023,
+                "data": [
+                    3.44357657999999,
+                    3.4356421000000408,
+                    3.448502379999991
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[512]",
+            "fullname": "test_benchmark.py::test_my_function[512]",
+            "params": {
+                "sizes": 512
+            },
+            "param": "512",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 27.84759157999997,
+                "max": 28.307749739999963,
+                "mean": 28.116112006666633,
+                "stddev": 0.239519507460843,
+                "rounds": 3,
+                "median": 28.192994699999964,
+                "iqr": 0.3451186199999938,
+                "q1": 27.933942359999968,
+                "q3": 28.27906097999996,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 27.84759157999997,
+                "hd15iqr": 28.307749739999963,
+                "ops": 0.03556679528673414,
+                "total": 84.34833601999989,
+                "data": [
+                    28.307749739999963,
+                    28.192994699999964,
+                    27.84759157999997
+                ],
+                "iterations": 5
+            }
+        },
+        {
+            "group": null,
+            "name": "test_my_function[1024]",
+            "fullname": "test_benchmark.py::test_my_function[1024]",
+            "params": {
+                "sizes": 1024
+            },
+            "param": "1024",
+            "extra_info": {},
+            "options": {
+                "disable_gc": false,
+                "timer": "perf_counter",
+                "min_rounds": 5,
+                "max_time": 1.0,
+                "min_time": 5e-06,
+                "warmup": false
+            },
+            "stats": {
+                "min": 231.5150222600001,
+                "max": 233.76278715999996,
+                "mean": 232.31447665333334,
+                "stddev": 1.2565319149450245,
+                "rounds": 3,
+                "median": 231.66562053999996,
+                "iqr": 1.685823674999881,
+                "q1": 231.55267183000007,
+                "q3": 233.23849550499995,
+                "iqr_outliers": 0,
+                "stddev_outliers": 1,
+                "outliers": "1;0",
+                "ld15iqr": 231.5150222600001,
+                "hd15iqr": 233.76278715999996,
+                "ops": 0.004304510052088704,
+                "total": 696.94342996,
+                "data": [
+                    231.66562053999996,
+                    231.5150222600001,
+                    233.76278715999996
+                ],
+                "iterations": 5
+            }
+        }
+    ],
+    "datetime": "2024-10-17T09:35:37.220544",
+    "version": "4.0.0"
+}
